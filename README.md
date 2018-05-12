@@ -33,6 +33,8 @@ To start the idler, run `node idler.js`.<br>
 By default, it has **colored output turned on**, you can disable it by running `node idler.js --no-color` instead.<br>
 You can stop it at any time by sending a simple SIGINT signal (press <kbd>Ctrl</kbd>+<kbd>C</kbd>).<br>
 
+![](https://raw.githubusercontent.com/nyo/steam-idler/master/client.gif)
+
 Now, if you want it to run in background (even if you close your ssh session) use **forever**.<br>
 _I recommend using `--no-color` when running in background, so the logs are not messed up_
 ```
