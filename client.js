@@ -60,7 +60,7 @@ var steamClient = function(config) {
 		client.getPersonas([sid], function(personas) {
 			var persona = personas[sid];
 			var name = persona ? persona.player_name : sid;
-			log(`New relationship with ${name} (${sid.getSteam2RenderedID()}): ${steamUser.EFriendRelationship[relationship]}.grey`);
+			log(`New relationship with ${name} (${sid.getSteam2RenderedID()}): ${steamUser.EFriendRelationship[relationship]}`);
 		});
 	});
 
