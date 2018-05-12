@@ -1,0 +1,16 @@
+{
+	"name": "steam-idler",
+	"version": "1.0.0",
+	"description": "steam idle script",
+	"keywords": "steam idle idler script",
+	"homepage": "https://github.com/nyo/steam-idler",
+	"license": "UNLICENSED",
+	"author": "anyo",
+	"main": "client.js",
+	"repository": "github:nyo/steam-idler",
+	"dependencies": {
+		"steam-user": "^3.27.0",
+		"moment": "^2.22.1",
+		"colors": "^1.2.5"
+	}
+}
