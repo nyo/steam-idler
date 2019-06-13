@@ -9,8 +9,8 @@
 	"main": "client.js",
 	"repository": "github:nyo/steam-idler",
 	"dependencies": {
-		"steam-user": "^3.27.0",
-		"moment": "^2.22.1",
-		"colors": "^1.2.5"
+		"colors": "^1.3.3",
+		"moment": "^2.24.0",
+		"steam-user": "^3.29.3"
 	}
 }
