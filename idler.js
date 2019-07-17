@@ -1,6 +1,6 @@
-var steamClient = require("./client.js");
+const steamClient = require("./client.js");
 
-var config = {};
+const config = {};
 config.username = "username";
 config.password = "password";
 config.games = [{
@@ -10,5 +10,5 @@ config.games = [{
 // config.games = null; // uncomment this if you don't want the account to play any game
 
 process.stdout.write("\033c"); // clear terminal before the client starts
-var client = steamClient(config);
+const client = steamClient(config);
 client.doStart();

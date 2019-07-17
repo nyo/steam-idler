@@ -1,16 +1,16 @@
-var steamUser = require("steam-user");
-var moment = require("moment");
-var fs = require("fs");
-var colors = require("colors");
+const steamUser = require("steam-user");
+const moment = require("moment");
+const fs = require("fs");
+const colors = require("colors");
 
 function log(message) {
 	moment.locale("fr");
-	var log = "[ " + moment().format("L LTS").yellow + " ] " + message.grey;
+	let log = "[ " + moment().format("L LTS").yellow + " ] " + message.grey;
 	console.log(log);
 	fs.appendFileSync("account.log", log + "\n");
 }
 
-var steamClient = function(config) {
+const steamClient = function(config) {
 	var client  = new steamUser({ dataDirectory: "./steam_data" });
 	client.username = config.username;
 	client.password = config.password;
